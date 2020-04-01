@@ -1,0 +1,23 @@
+// Animations
+// ===
+//
+// Background Shimmer
+// ---
+
+@keyframes background-shimmer {
+    0% {
+        background-position: 150vw 0;
+    }
+
+    100% {
+        background-position: -150vw 0;
+    }
+}
+
+.scroll-down .c-Header {
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up .c-Header {
+    transform: none;
+}
