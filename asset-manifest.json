@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/chessboardconsumer/static/css/main.6367b37e.chunk.css",
+    "main.js": "/chessboardconsumer/static/js/main.cf934b85.chunk.js",
+    "main.js.map": "/chessboardconsumer/static/js/main.cf934b85.chunk.js.map",
+    "runtime-main.js": "/chessboardconsumer/static/js/runtime-main.e95d6672.js",
+    "runtime-main.js.map": "/chessboardconsumer/static/js/runtime-main.e95d6672.js.map",
+    "static/css/2.de424728.chunk.css": "/chessboardconsumer/static/css/2.de424728.chunk.css",
+    "static/js/2.263ad055.chunk.js": "/chessboardconsumer/static/js/2.263ad055.chunk.js",
+    "static/js/2.263ad055.chunk.js.map": "/chessboardconsumer/static/js/2.263ad055.chunk.js.map",
+    "static/css/3.b586e690.chunk.css": "/chessboardconsumer/static/css/3.b586e690.chunk.css",
+    "static/js/3.0a96e1a7.chunk.js": "/chessboardconsumer/static/js/3.0a96e1a7.chunk.js",
+    "static/js/3.0a96e1a7.chunk.js.map": "/chessboardconsumer/static/js/3.0a96e1a7.chunk.js.map",
+    "static/css/4.4467dc84.chunk.css": "/chessboardconsumer/static/css/4.4467dc84.chunk.css",
+    "static/js/4.ab6c7ed9.chunk.js": "/chessboardconsumer/static/js/4.ab6c7ed9.chunk.js",
+    "static/js/4.ab6c7ed9.chunk.js.map": "/chessboardconsumer/static/js/4.ab6c7ed9.chunk.js.map",
+    "static/js/5.0d42efe7.chunk.js": "/chessboardconsumer/static/js/5.0d42efe7.chunk.js",
+    "static/js/5.0d42efe7.chunk.js.map": "/chessboardconsumer/static/js/5.0d42efe7.chunk.js.map",
+    "index.html": "/chessboardconsumer/index.html",
+    "precache-manifest.6bbd4cfa49ecc19dcbe5f922c66eb763.js": "/chessboardconsumer/precache-manifest.6bbd4cfa49ecc19dcbe5f922c66eb763.js",
+    "service-worker.js": "/chessboardconsumer/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/chessboardconsumer/static/css/2.de424728.chunk.css.map",
+    "static/css/3.b586e690.chunk.css.map": "/chessboardconsumer/static/css/3.b586e690.chunk.css.map",
+    "static/css/4.4467dc84.chunk.css.map": "/chessboardconsumer/static/css/4.4467dc84.chunk.css.map",
+    "static/css/main.6367b37e.chunk.css.map": "/chessboardconsumer/static/css/main.6367b37e.chunk.css.map",
+    "static/js/2.263ad055.chunk.js.LICENSE.txt": "/chessboardconsumer/static/js/2.263ad055.chunk.js.LICENSE.txt",
+    "static/js/5.0d42efe7.chunk.js.LICENSE.txt": "/chessboardconsumer/static/js/5.0d42efe7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e95d6672.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.263ad055.chunk.js",
+    "static/css/main.6367b37e.chunk.css",
+    "static/js/main.cf934b85.chunk.js"
+  ]
+}
