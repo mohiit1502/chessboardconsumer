@@ -1,0 +1,44 @@
+{
+    "rule": {
+        "row": {
+            "label": "Row",
+            "placeholder": "Enter row number",
+            "type": "text",
+            "id": "row",
+            "elementType": "input",
+            "validation": {
+                "required": {
+                    "isRequired": "true",
+                    "error_message": "This field is required."
+                },
+                "rules": {
+                    "minlength": 1,
+                    "maxlength": 1
+                },
+                "dataRuleRegex" :{
+                    "regex": "^[1-9]+$"
+                }
+            }
+        },
+        "column": {
+            "label": "Column",
+            "placeholder": "Enter column number",
+            "type": "text",
+            "id": "column",
+            "elementType": "input",
+            "validation": {
+                "required": {
+                    "isRequired": "true",
+                    "error_message": "This field is required."
+                },
+                "rules": {
+                    "minlength": 1,
+                    "maxlength": 1
+                },
+                "dataRuleRegex" :{
+                    "regex": "^[1-9]+$"
+                }
+            }
+        }
+    }
+}

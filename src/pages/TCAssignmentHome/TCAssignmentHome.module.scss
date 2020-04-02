@@ -1,0 +1,41 @@
+.c-TCAssignmentHome {
+    background: #222;
+    max-width: unset;
+
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+
+    @media only screen and (max-width: 1140px) {
+        padding-left: unset;
+        padding-right: unset;
+        margin-right: unset;
+        margin-left: unset;
+    }
+
+    &.container {
+        max-width: unset;
+    }
+    
+    .ruleContainer {
+        border: 2px solid grey;
+        border-radius: 0.3rem;
+        margin: 1rem;
+        background: #eee;
+        padding-bottom: 20px;
+        .c-rule-intimation {
+            padding: 15px 5px 15px 15px;
+            background: black;
+            color: white;
+            margin-bottom: 0;
+        }
+        .ruleSplitter {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+            font-size: 25px;
+            font-weight: bolder;
+            line-height: 30px;
+        }
+    }
+}
