@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98abfa7e3e17bde1131fbdfdca82ff40",
+    "revision": "084487d63a17b1c81f6a6945f6170a6b",
     "url": "/chessboardconsumer/index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chessboardconsumer/static/css/4.4467dc84.chunk.css"
   },
   {
-    "revision": "912eab6228174109e618",
+    "revision": "4510874305e98441999a",
     "url": "/chessboardconsumer/static/css/main.6367b37e.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chessboardconsumer/static/js/5.0d42efe7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "912eab6228174109e618",
-    "url": "/chessboardconsumer/static/js/main.cf934b85.chunk.js"
+    "revision": "4510874305e98441999a",
+    "url": "/chessboardconsumer/static/js/main.334c4c91.chunk.js"
   },
   {
     "revision": "3b083ac46309932d9d1a",

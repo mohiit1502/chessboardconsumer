@@ -16,8 +16,8 @@ const RuleContainer = ({formErrors, formValues, history, dispatchResponse, updat
     const row = formValues['row']
     const column = formValues['column']
 
-    // const baseURL = "http://truecallerassignment.herokuapp.com"
-    const baseURL = "http://localhost:8080"
+    const baseURL = "http://truecallerassignment.herokuapp.com"
+    // const baseURL = "http://localhost:8080"
     const service = "findpath"
     const finalURL = `${baseURL}/${service}?row=${row}&column=${column}`
 
