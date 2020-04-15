@@ -8,7 +8,6 @@ import {getFormValues, getFormErrors} from './../../../pages/TCAssignmentHome/se
 import Form from '../common/Form';
 import ruleFormFields from './../../../config/forms-meta/rule-form.json'
 import './RuleContainer.component.scss';
-import sampleResponse from './../../../temp/sampleResponse.json'
 
 const RuleContainer = ({formErrors, formValues, history, dispatchResponse, updateFormErrors, updateFormValues}) => {
 
@@ -16,8 +15,8 @@ const RuleContainer = ({formErrors, formValues, history, dispatchResponse, updat
     const row = formValues['row']
     const column = formValues['column']
 
-    const baseURL = "http://truecallerassignment.herokuapp.com"
-    // const baseURL = "http://localhost:8080"
+    // const baseURL = "http://truecallerassignment.herokuapp.com"
+    const baseURL = "http://localhost:8080"
     const service = "findpath"
     const finalURL = `${baseURL}/${service}?row=${row}&column=${column}`
 
@@ -39,7 +38,6 @@ const RuleContainer = ({formErrors, formValues, history, dispatchResponse, updat
         history.push('/view/demo')
       })
       .catch(err => console.log(err))
-    // dispatchResponse(sampleResponse)
   }
   
   return (

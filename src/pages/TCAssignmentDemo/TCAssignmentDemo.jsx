@@ -29,7 +29,7 @@ const TCAssignmentDemo = ({route}) => {
           <div className="col-1"/>
           {
             jlist.map((num, keyCol) => {
-              return <div className={`col-1 jCol-${keyCol + 1}`} id={`col-${(keyRow + 1) + "-" + (keyCol + 1)}`} key={keyCol}>{num}</div>
+              return <div className={`col-1 jCol-${keyCol + 1}`} id={`col-${(keyRow + 1) + "-" + (keyCol + 1)}`} key={keyCol} onClick={(ev) => ev.target.classList.add("tile-animation")}>{num}</div>
             })
           }
           <div className="col-1" />
@@ -60,6 +60,9 @@ const TCAssignmentDemo = ({route}) => {
       const rowNcol = tile.split('-')
       const identifier = "col-" + rowNcol[0] + "-" + rowNcol[1]
       const element = document.getElementById(identifier)
+      if (element == null) {
+        console.log(allowedTilesList)
+      }
       previousAllowedTileList.push(element)
       element.classList.add('tile-highlighted')
     })
